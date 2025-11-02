@@ -31,10 +31,10 @@
     {% do assets.addCss('theme://css/style.css') %}
 {% endblock %}
 {% block javascripts %}
-    {% do assets.addJs('theme://script/bootstrap-5.3.3/bootstrap.bundle.min.js', { defer: true }) %}
-    {% do assets.addJs('theme://script/jquery/jquery-3.7.1.min.js', { defer: true }) %}
-    {% do assets.addJs('theme://script/underscore/underscore-min.js', { defer: true }) %}
-    {% do assets.addJs('theme://script/javascript.js', { defer: true }) %}
+    {% do assets.addJs('theme://script/bootstrap-5.3.3/bootstrap.bundle.min.js', { defer: 'defer' }) %}
+    {% do assets.addJs('theme://script/jquery/jquery-3.7.1.min.js', { defer: 'defer' }) %}
+    {% do assets.addJs('theme://script/underscore/underscore-min.js', { defer: 'defer' }) %}
+    {% do assets.addJs('theme://script/javascript.js', { defer: 'defer' }) %}
 {% endblock %}
 {% block assets deferred %}
     {{ assets.css()|raw }}

@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock ['>= 3.17.0', '<= 3.19.2']
+lock ['>= 3.17.0', '< 3.20']
 
 set :application, 'szwergold.com'
 set :short_name, 'szwergold.com'

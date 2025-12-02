@@ -3,7 +3,7 @@ lock ['>= 3.17.0', '< 3.20']
 
 set :application, 'szwergold.com'
 set :short_name, 'szwergold.com'
-set :repo_url, 'git@github.com:JackSzwergold/ArsAurum-Main.git'
+set :repo_url, 'git@github.com:JackSzwergold/Szwergold-Main.git'
 
 # Default value for :scm is :git
 # set :scm, :git
